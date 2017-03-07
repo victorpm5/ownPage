@@ -110,8 +110,8 @@
 			text-transform: none !important;
 		}
 
-		.icon > .label {
-			display: none;
+		.icon > .iconText {
+			line-height: 0.5em;
 		}
 
 /* Wrapper */
@@ -524,6 +524,10 @@
 			font-size: 1.50em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 1;
+		}
+
+		#header .iconText {
+			font-size: 1.20em;
 		}
 
 		#header nav {
@@ -944,6 +948,10 @@
 
 		#header p {
 			font-size: 1em;
+		}
+
+		#header .iconText {
+			font-size: 0.8em;
 		}
 
 		#header nav {
